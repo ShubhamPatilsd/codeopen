@@ -8,3 +8,4 @@ edition = "2018"
 [dependencies]
 toml = "0.5.8"
 home = "0.5.3"
+serde = {version="1.0.130", features=["derive"]}
