@@ -37,6 +37,8 @@ fn main() {
             Command::new(&i.editor_alias)
                 .arg(&absolute_string)
                 .spawn()
+                .expect("Unable to spawn editor process")
+                .wait()
                 .expect("ERR: Unable to open project in editor.");
         }
     }
