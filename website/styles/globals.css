@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+    @apply font-bold;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+  }
+  h2 {
+    @apply text-4xl;
+    @apply font-bold;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    @apply text-2xl;
+    @apply font-bold;
+    line-height: 40px;
+  }
+  h4 {
+    @apply text-xl;
+    @apply font-bold;
+    line-height: 30px;
+  }
+  p {
+    @apply text-base;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+  }
+  small {
+    @apply text-sm;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+  }
+}
