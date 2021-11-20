@@ -8,7 +8,12 @@ pub fn get_config_file() -> String {
     let configpath = format!("{}/.config/codeopen/config.toml", &homedir);
 
     let path = Path::new(&configpath);
-    let config = fs::read_to_string(fs::canonicalize(&path).expect("Wrong path"))
+    if !Path::new(&configpath).exists() {
+        println!("Your config file at {} does not exist", &configpath);
+        std::process::exit(1);
+    }
+
+    let config = fs::read_to_string(fs::canonicalize(&path).expect("Directory or file not found"))
         .expect("Config file does not exist");
 
     return config;
