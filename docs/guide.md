@@ -8,7 +8,7 @@ First, locate your home directory. On Linux, it is `/home/YOUR_USERNAME`, on Mac
 ### Config File Setup
 If it's not there, create the config file. To set up a project to be opened, follow and fill this TOML structure with your own data and add it to the `config.toml` file:
 
-```toml
+```
 [[directory_shortcuts]]
 name="NAME_OF_PROJECT"
 path="PATH_OF_PROJECT"
