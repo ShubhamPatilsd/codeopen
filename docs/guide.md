@@ -1,12 +1,12 @@
-# Configuration
+# Setup
 
 It is simple to create projects that can be opened.
 
-## Config File Location
+### Config File Location
 First, locate your home directory. On Linux, it is `/home/YOUR_USERNAME`, on Mac it is `/Users/YOUR_USERNAME`, and on Windows it's `C:\\Users\YOUR_USERNAME`. The config file should be at `.config/codeopen/config.toml`.
 
-## Config File Setup
-If it's not there, create the config file. To set up a project to be opened, follow this TOML structure:
+### Config File Setup
+If it's not there, create the config file. To set up a project to be opened, follow and fill this TOML structure with your own data and add it to the `config.toml` file:
 
 ```toml
 [[directory_shortcuts]]
