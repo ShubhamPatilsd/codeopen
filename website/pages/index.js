@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="p-8 md:p-16">
       <div className="space-y-16">
-        <div class="w-full space-y-4">
+        <div className="w-full space-y-4">
           <h1 className="text-center font-black text-5xl md:text-7xl">
             CodeOpen
           </h1>

@@ -34,7 +34,7 @@
   }
   p {
     @apply text-base;
-    line-height: 22px;
+    line-height: 35px;
     letter-spacing: 0.01em;
   }
   small {
@@ -42,4 +42,8 @@
     line-height: 18px;
     letter-spacing: 0.01em;
   }
+  /* 
+  code {
+    @apply p-1 rounded-md bg-gray-700 text-white;
+  } */
 }
