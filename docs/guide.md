@@ -17,4 +17,12 @@ editor_alias="EDITOR (eg: vim, nano, code)"
 
 Just for reference, it would look like `codeopen NAME_OF_PROJECT` on the command line, and if you set `editor_alias` to `code`, it would open it in VSCode. The path is the path to the project. It's preferred if you put it with the `~` character (like `~/programming/project`) but it's okay if you put an absolute file path or a relative file path (the latter being `programming/project`).
 
+You can create as many of these entries as you want in your config file.
+
 And that's it! You can simply just use the tool without exiting your terminal or anything!
+
+# Usage
+It's pretty simple to use `codeopen`:
+```
+codeopen NAME_OF_PROJECT
+```
