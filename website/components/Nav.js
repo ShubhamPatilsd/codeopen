@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 export const Navbar = () => {
   return (
     <div className="flex justify-between py-4 px-8">
-      <div className="space-x-4 flex">
+      <div className="space-x-6 flex">
         <h4 className="transition duration-150 border-b-2 border-transparent hover:border-white w-max cursor-pointer">
           <a href="/">Home</a>
         </h4>
