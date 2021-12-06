@@ -32,9 +32,7 @@ export default function Docs(props) {
 }
 
 export async function getStaticProps() {
-  const data = await fetch(
-    "https://raw.githubusercontent.com/ShubhamPatilsd/codeopen/main/docs/guide.md"
-  );
+  const data = await fetch(process.env.DOC_MD_URL);
 
   const parsed_data = await data.text();
 
