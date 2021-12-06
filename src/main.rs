@@ -1,14 +1,10 @@
 use serde::Deserialize;
-use std::env;
 use std::process::Command;
 
 use structopt::StructOpt;
 
 #[path = "./read_config/read_config.rs"]
 mod read_config;
-
-#[path = "./read_config/home_directory.rs"]
-mod home_directory;
 
 #[path = "./util/abs_path.rs"]
 mod abs_path;
