@@ -11,7 +11,7 @@ uline="\e[4m"
 reset="\e[0m"
 
 echo -e "${blue}${bold}=======================${reset}"
-echo -e "${blue}${bold}Codeopen Install Script${reset}"
+echo -e "${blue}${bold}CodeOpen Install Script${reset}"
 echo -e "${blue}${bold}=======================${reset}\n"
 echo -e "${green}${bold}This process is going to ask for your sudo password, just so we can move the file to /usr/local/bin${reset}\n"
 

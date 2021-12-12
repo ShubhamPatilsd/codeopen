@@ -1,2 +1,3 @@
-# codeopen
-Open your project in your editor with ease from the command line!
+![CodeOpen, a productivity tool that helps you to open your programming projects faster and simpler, directly from the command line!](/assets/banner.png)
+
+To get started, read the docs!
