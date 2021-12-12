@@ -1,5 +1,15 @@
 # Installation
-Until I get the binaries in package repos for Linux/macOS/Windows, this is the way to go. To install it, go to the [release page on GitHub](https://github.com/ShubhamPatilsd/codeopen/releases/). Then, click on the `.zip`/`.tar.xz` file that corresponds to your system (eg: `windows`, `apple`, and `linux`). After extracting the file to your computer, take the executable that pops out and move it to `/usr/local/bin` (or wherever your `$PATH` environment variable points to) if you're on Linux or Mac. 
+Until I get the binaries in package repos for Linux and macOS (Windows in the future), this is the way to go.
+
+## Installer Script (recommended)
+A script has been written to get Codeopen installed on your system. Go to the [releases page](https://github.com/ShubhamPatilsd/codeopen/releases/latest) and download `install.sh` or directly download it with [this link](https://github.com/ShubhamPatilsd/codeopen/releases/download/release/install.sh). Then, make it executable by running:
+```bash
+chmod +x install.sh
+```
+Then, run `./install.sh` to run the install script!
+
+## Manual Installation
+To install it, go to the [release page on GitHub](https://github.com/ShubhamPatilsd/codeopen/releases/). Then, click on the `.zip`/`.tar.xz` file that corresponds to your system (eg: `windows`, `apple`, and `linux`). After extracting the file to your computer, take the executable that pops out and move it to `/usr/local/bin` (or wherever your `$PATH` environment variable points to) if you're on Linux or Mac. 
 
 Here is the command to do that:
 ```bash
