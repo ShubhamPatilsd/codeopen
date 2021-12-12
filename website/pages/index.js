@@ -40,9 +40,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center">
-              <Button additionalClass="bg-gray-100 hover:bg-gray-300 text-black">
-                Let's get started!
-              </Button>
+              <a href="/docs">
+                <Button additionalClass="bg-gray-100 hover:bg-gray-300 text-black">
+                  Let's get started!
+                </Button>
+              </a>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3">
