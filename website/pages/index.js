@@ -23,8 +23,8 @@ export default function Home() {
               CodeOpen
             </h1>
             <h3 className="text-center font-normal text-lg md:text-2xl">
-              A faster and easier way to open your programming projects from the
-              command line.
+              A productivity tool that helps you to open your programming
+              projects faster and simpler, directly from the command line!
             </h3>
             <div className="flex justify-center">
               <div>
