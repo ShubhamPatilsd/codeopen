@@ -1,3 +1,12 @@
+# Installation
+Until I get the binaries in package repos for Linux/macOS/Windows, this is the way to go. To install it, go to the [release page on GitHub](https://github.com/ShubhamPatilsd/codeopen/releases/). Then, click on the `.zip`/`.tar.xz` file that corresponds to your system (eg: `windows`, `apple`, and `linux`). After extracting the file to your computer, take the executable that pops out and move it to `/usr/local/bin` (or wherever your `$PATH` environment variable points to) if you're on Linux or Mac. 
+
+Here is the command to do that:
+```bash
+sudo mv codeopen /usr/local/bin/
+```
+
+
 # Setup
 
 It is simple to create projects that can be opened.
