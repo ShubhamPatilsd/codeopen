@@ -10,10 +10,6 @@ bold="\e[1m"
 uline="\e[4m"
 reset="\e[0m"
 
-echo "${blue}${bold}=======================${reset}"
-echo "${blue}${bold}CodeOpen Install Script${reset}"
-echo "${blue}${bold}=======================${reset}\n"
-echo "${green}${bold}This process is going to ask for your sudo password, just so we can move the file to /usr/local/bin${reset}\n"
 
 if [[ $(uname) == "Linux" ]]
 then
