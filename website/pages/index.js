@@ -90,8 +90,8 @@ export default function Home() {
               command; instead you can just do{" "}
               <code className="bg-gray-600 rounded-md p-1">
                 codeopen project
-              </code>
-              The project argument is something that you specify in the config
+              </code>.
+               The project argument is something that you specify in the config
               file. To read more on the config file,{" "}
               <a href="/docs" className="text-blue-400 hover:underline">
                 read the docs!
